@@ -272,15 +272,13 @@ body.light .site-header {
 }
 
 .avatar {
-    width: 72px;
-    height: 72px;
+    background-image: url("my.jpeg");
+    background-size: cover;
+    width: 172px;
+    height: 172px;
     border-radius: 50%;
     display: grid;
     place-items: center;
-    font-weight: 700;
-    margin-bottom: 1rem;
-    background: linear-gradient(135deg, var(--accent), var(--accent-2));
-    color: #021018;
 }
 
 .hero-card ul {
